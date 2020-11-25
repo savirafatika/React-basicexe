@@ -7,7 +7,8 @@ import './index.css';
 // import Handle from './6-form/App'
 // import Reducer from './7-useReducer/App'
 // import UseRef from './8-useRef/App'
-import ForwardRef from './9-forwardRef/App'
+// import ForwardRef from './9-forwardRef/App'
+import CustomHooks from './10-custom-hooks/App'
 import reportWebVitals from './reportWebVitals';
 
 // function FirstApp() {
@@ -20,7 +21,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ForwardRef />
+    <CustomHooks />
   </React.StrictMode>,
   document.getElementById('my-root')
 );
