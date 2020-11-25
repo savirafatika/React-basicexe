@@ -6,7 +6,8 @@ import './index.css';
 // import List from './4-lemparan-props/App'
 // import Handle from './6-form/App'
 // import Reducer from './7-useReducer/App'
-import UseRef from './8-useRef/App'
+// import UseRef from './8-useRef/App'
+import ForwardRef from './9-forwardRef/App'
 import reportWebVitals from './reportWebVitals';
 
 // function FirstApp() {
@@ -19,7 +20,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseRef />
+    <ForwardRef />
   </React.StrictMode>,
   document.getElementById('my-root')
 );
