@@ -5,6 +5,7 @@ import App from './App';
 import App2 from './3-lifecycle/App2'
 import List from './4-lemparan-props/App'
 import Handle from './6-form/App'
+import Reducer from './7-useReducer/App'
 import reportWebVitals from './reportWebVitals';
 
 function FirstApp() {
@@ -17,7 +18,7 @@ function FirstApp() {
 
 ReactDOM.render(
   <React.StrictMode>
-    <Handle />
+    <Reducer />
   </React.StrictMode>,
   document.getElementById('my-root')
 );
