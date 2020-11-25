@@ -1,24 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import App2 from './3-lifecycle/App2'
-import List from './4-lemparan-props/App'
-import Handle from './6-form/App'
-import Reducer from './7-useReducer/App'
+// import App from './App';
+// import App2 from './3-lifecycle/App2'
+// import List from './4-lemparan-props/App'
+// import Handle from './6-form/App'
+// import Reducer from './7-useReducer/App'
+import UseRef from './8-useRef/App'
 import reportWebVitals from './reportWebVitals';
 
-function FirstApp() {
-  return (
-    <div>
-      <h3>This is my first react app</h3>
-    </div>
-  )
-}
+// function FirstApp() {
+//   return (
+//     <div>
+//       <h3>This is my first react app</h3>
+//     </div>
+//   )
+// }
 
 ReactDOM.render(
   <React.StrictMode>
-    <Reducer />
+    <UseRef />
   </React.StrictMode>,
   document.getElementById('my-root')
 );
